@@ -4,7 +4,7 @@ class CreatePayments < ActiveRecord::Migration[5.1]
       t.datetime :payment_date
       t.text :description
       t.float :total_amount
-      t.references :ordergroup, foreign_key: true
+      t.references :order_group, foreign_key: true
 
       t.timestamps
     end
