@@ -34,10 +34,10 @@ ActiveRecord::Schema.define(version: 20171019120826) do
     t.datetime "payment_date"
     t.text "description"
     t.float "total_amount"
-    t.integer "ordergroup_id"
+    t.integer "order_group_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["ordergroup_id"], name: "index_payments_on_ordergroup_id"
+    t.index ["order_group_id"], name: "index_payments_on_order_group_id"
   end
 
   create_table "products", force: :cascade do |t|
