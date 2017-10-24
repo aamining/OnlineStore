@@ -13,6 +13,8 @@ gem 'simple_form'
 gem 'geocoder'
 gem 'carrierwave', '~> 1.0'
 
+gem 'figaro'
+
 gem 'stripe'
 gem 'cloudinary'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
